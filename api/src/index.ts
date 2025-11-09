@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 const allowedOrigins = [
   "http://localhost:5173",
-  process.env.FRONTEND_URL || "https://simple-auth-wheat.vercel.app",
+  process.env.FRONTEND_URL || "https://auth67.vercel.app",
 ];
 
 app.use(
